@@ -81,4 +81,9 @@ printGraph(origGraph, 3)
 
 print("\nAnswer:")
 printGraph(answ, 2)
+
+sm = 0
+for i in range(len(answ)):
+    sm += answ[i].lenth
+print("\nWeigth MOD = ",sm)
 print("\nN1 = ",N1)
